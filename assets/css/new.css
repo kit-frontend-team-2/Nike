@@ -1,0 +1,92 @@
+.n_logo{
+width: 35px;
+position: relative;
+right: -40px;
+background-color: rgba(224, 221, 221, 0.969);
+}
+
+.login{
+    /* text-align: right; */
+    position: relative;
+    top: -15px;
+    left: 85vw;
+    
+    }
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    background-color: rgba(224, 221, 221, 0.969);
+}
+.nike{
+    width: 70px;
+    position: relative;
+    right: -40px;
+    top: -10px;
+}
+.TM1{
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    right: 55vw;
+    top: 8.5vh;
+    }
+
+.TM2{
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    right: 52vw;
+    top: 8.5vh;
+}
+
+.TM3{
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    right: 47.5vw;
+    top: 8.5vh;
+}
+.wish{
+    position: absolute;
+    right: 130px;
+    top: 70px;
+}
+.wish>img{
+    width: 20px;
+}
+.cart{
+    position: absolute;
+    right: 80px;
+    top: 66px;
+}
+.cart>img{
+    width: 25px;
+}
+.search{
+    position: relative;
+    right: -1570px;
+    top: -54px;
+    
+}
+input{
+    width: 8%;
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    padding: 10px 1px 10px 1px;
+    font-size: 14px;
+}
+.mag{
+  position : relative;
+  width: 17px;
+  top: 5px;
+  right: 160px;
+  margin: 0;
+}
