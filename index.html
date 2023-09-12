@@ -20,10 +20,10 @@
           </li>
           <div class="line"></div>
           <li class="cs">
-            <a href="">고객센터</a>
+            <a href="#">고객센터</a>
           </li>
           <ul class="CS_menu">
-            <li>고객센터</li>
+            <a>고객센터</a>
             <li>주문</li>
             <li>로그인안내</li>
             <li>결제방법</li>
@@ -47,13 +47,13 @@
       </section>
       <section class="bar2">
         <h1 class="bar2_logo">
-          <img src="./assets/icon/나이키 스우시.png" />
+          <div><img src="./assets/icon/나이키 스우시.png" /></div>
         </h1>
         <nav>
           <ul class="title">
             <li class="new">
               New Releases
-              <div class="new_menu">
+              <!-- <div class="new_menu">
                 <div>
                   <a href="">New & Featured</a>
                   <a href="">Shop Icon</a>
@@ -61,7 +61,7 @@
                   <a href="">여성 신제품</a>
                   <a href="">키즈 신제품</a>
                 </div>
-              </div>
+              </div> -->
             </li>
             <li class="men">Men</li>
             <li class="women">Women</li>
@@ -71,22 +71,30 @@
             <li class="app">나이키 앱</li>
           </ul>
         </nav>
-        <div>
-          <ul class="bar2_menu">
-            <li class="search_container">
-              <div class="search">돋보기</div>
-              검색
-              <!--
-              <div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-              -->
-            </li>
-            <li class="heart"></li>
-            <li class="bag"></li>
-          </ul>
+        <div class="bar2_menu">
+          <a class="search_container">
+            <input type="text" class="serch" placeholder="검색" />
+            <img
+              class="serch_img"
+              src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="heart_container">
+          <a class="heart">
+            <img
+              class="heart_icon"
+              src="https://cdn-icons-png.flaticon.com/128/535/535285.png"
+              alt=""
+            />
+          </a>
+          <a class="bag">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/11530/11530382.png"
+              alt=""
+            />
+          </a>
         </div>
       </section>
     </header>

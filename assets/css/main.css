@@ -3,6 +3,7 @@
 .bar1 {
   display: flex;
   justify-content: space-between;
+  height: 36px;
 }
 .bar1_logo {
   display: flex;
@@ -13,7 +14,7 @@
   padding: 0px 38px 0px 36px;
   max-width: 1920px;
   margin: 0 auto;
-  background-color: gray;
+  background: #f5f5f5;
 }
 .bar1_logo > div > img {
   width: 24px;
@@ -38,36 +39,163 @@
 .CS_menu {
   display: none;
 } */
-
+.bar1_menu > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .bar1_menu > li > a {
   padding: 0 2px 0px 2px;
   margin: 0 8px;
 }
 
+ul li {
+  list-style: none;
+}
+.cs {
+  position: relative;
+}
+.CS_menu {
+  display: none;
+  background-color: red;
+  max-width: 160px;
+  z-index: 1;
+  position: absolute;
+  top: 36px;
+  padding: 24px;
+  padding-left: 16px;
+}
+/* .bar1 > li {
+  display: block;
+} */
+
+.cs:hover + .CS_menu {
+  display: block;
+  /* background: #fff; */
+  background-color: aqua;
+}
+.CS_menu {
+  padding: 24px 24px 24px 16px;
+}
+
+.CS_menu > a {
+  display: block;
+  font-size: 16px;
+  padding: 4px 8px;
+  margin-bottom: 12px;
+  color: #111;
+
+  /*a => inline태그, inline태그는 margin-bottom,
+  margin-top 적용되지 않음 
+  따라서 display=> block
+  */
+}
+
+.CS_menu > li {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 4px 8px;
+  color: #757575;
+}
 .bar2 {
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  align-items: center;
+  background-color: #fff;
+}
+.bar2 {
+  padding: 0px 38px 0px 36px;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 60px;
+  padding-top: 4px;
 }
 .bar2_logo {
   display: flex;
   justify-content: left;
   align-items: center;
 }
-ul li {
-  list-style: none;
+.bar2_logo > div {
+  width: 59px;
+  height: 59px;
+  margin: 1px 0;
+}
+.bar2_logo > div > img {
+  box-sizing: inherit;
+  height: 100%;
+  width: 100%;
+}
+nav {
+  margin: 0 auto;
+  /* width: calc(100%-680px); */
 }
 
-.CS_menu {
+.title {
+  display: flex;
+  padding: 2px;
+}
+
+.title > li {
+  padding-bottom: 18px;
+  padding: 12px;
+  color: #111;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.new_menu {
   display: none;
-  background-color: red;
-  max-width: 160px;
-  z-index: 1;
-}
-.CS_menu > li {
-  display: block;
 }
 
-.cs > a:hover .CS_menu {
-  display: block;
+.bar2_menu {
+  position: relative;
 }
+
+.search_container {
+  width: 180px;
+  height: 40px;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  background: #f5f5f5;
+  color: inherit;
+  padding: 8px 48px;
+  cursor: text;
+  border-radius: 100px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+}
+
+.serch_img {
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  padding: 6px 8px;
+  width: 15px;
+}
+.heart_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+}
+
+.heart_container > a > img {
+  width: 24px;
+  height: 24px;
+}
+
+.heart_icon {
+  margin-right: 12px;
+}
+
+/* 
+검색창 맞추기
+검색창이랑 하트 간격 맞추기
+footer잡기 
+*/
