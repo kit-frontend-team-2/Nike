@@ -1,5 +1,11 @@
 /* * {
 } */
+a {
+  text-decoration: none;
+}
+header a {
+  color: black;
+}
 .bar1 {
   display: flex;
   justify-content: space-between;
@@ -198,4 +204,76 @@ input {
 검색창 맞추기
 검색창이랑 하트 간격 맞추기
 footer잡기 
+2023-09-13
+:ul-li 태그만했을시 클릭이 안됨 a태그추가후 변경할것 (header)
 */
+/*main*/
+/*footer*/
+footer {
+  width: 100%;
+  background-color: black;
+}
+.footer_main {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 40px 0 40px;
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  color: white;
+}
+.footer_main li {
+  margin-bottom: 3px;
+}
+.footer_main > div {
+  width: 75%;
+  padding: 0 6px;
+  margin-left: -6px;
+  margin-right: -6px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  display: flex;
+}
+.footer_main ul {
+  width: 25%;
+  display: inline-block;
+}
+.footer_main > div > ul > li {
+  margin-bottom: 3px;
+}
+.new_issue {
+  margin-left: 0;
+}
+
+.container li {
+  font-size: 12px;
+  line-height: 2.333333333333333;
+}
+
+.container li.title {
+  font-size: 14px;
+  line-height: 1.714286;
+}
+.new_issue li {
+  font-size: 14px;
+  line-height: 1.714286;
+}
+.sns_container > li {
+  display: inline-block;
+}
+.sns_container {
+  text-align: right;
+}
+/*글씨크기 조정*/
+.sns_container > li > a > img {
+  width: 50px;
+  height: 50px;
+}
+.footer_bottom {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 40px 0 40px;
+  display: flex;
+  justify-content: center;
+}
