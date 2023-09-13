@@ -1,3 +1,11 @@
+*{
+font-family: 'Caveat', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: "Noto Sans KR","Arial Bold","Helvetica Now Text",Helvetica,Arial,Dotum,"국어",Gulim,sans-serif
+}
+
+
 .n_logo{
 width: 35px;
 position: relative;
@@ -74,6 +82,7 @@ nav{
     position: relative;
     right: -1570px;
     top: -54px;
+   
     
 }
 input{
@@ -82,6 +91,7 @@ input{
     border-radius: 20px;
     padding: 10px 1px 10px 1px;
     font-size: 14px;
+    background-color: rgba(246, 238, 238, 0.977);
 }
 .mag{
   position : relative;
@@ -89,4 +99,154 @@ input{
   top: 5px;
   right: 160px;
   margin: 0;
+}
+.NP{
+    position: relative;
+    right: -40px;
+    font-size: 25px;
+}
+.FI>img{
+    width: 20px;
+    position: relative;
+    left: 108px;
+    bottom: -7px;
+}
+.FI{
+    position: relative;
+    left: 80vw;
+    bottom: 3vh;
+
+}
+.AR{
+    position: relative;
+    left: 83vw;
+    bottom: 3vh;
+}
+.arr span {
+    position: relative;
+}
+
+.arr span::after {
+    content: '';
+    width: 10px; 
+    height: 10px; 
+    border-top: 3px solid #121212; /* 선 두께 */
+    border-right: 3px solid #121212; /* 선 두께 */
+    display: inline-block;
+    transform: rotate(135deg); /* 각도 */
+    position: absolute;
+    top: -5vh; /* 기본 0px 값으로 해주세요 */
+    left: 93vw; /* 기본 0px 값으로 해주세요 */
+}
+
+.SM{
+    position: relative;
+    right: -40px;
+    line-height: 1.5vw;
+}
+
+/* 스크롤바 */
+.SM{
+    width: 200px;
+    height: 800px; 
+    overflow-y: scroll;
+}
+
+.SM::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(239, 239, 239, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.SM::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+.SM::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
+}
+
+hr{
+    color: rgba(193, 189, 189, 0.439);
+    width: 100%;
+    justify-content: flex-start;
+}
+
+    
+/*SH = Shoes 사진*/
+.SH{
+    width: 500px;
+    position: relative;
+    left: 270px;
+    bottom: 83vh;  
+} 
+.PE{
+    width: 500px; 
+    position:relative;
+    left: 800px;
+    bottom: 153.5vh;    
+}
+.SH-1{
+    width: 500px;
+    position: relative;
+    left: 1330px;
+    bottom: 214vh;  
+}
+/* Red 글씨 */
+.R{
+    color: rgba(135, 11, 11, 0.917);
+}
+.p1_1{
+    line-height: 25px;
+    position:relative;
+    left: 14vw;
+    bottom: 82vh;
+}
+/* p1_2가 아니라 p1_1가격표인데 HTML을 잘못 설정함 */
+.p1_2{
+    line-height: 40px;
+    position:relative;
+    left: 14vw;
+    bottom: 82vh;
+}
+.G{
+    color: green;
+   
+}
+.Line{
+    text-decoration: line-through;
+}
+.p2_1{
+    position: relative;
+    left: 43vw;
+    bottom: 166vh;
+    color: white;
+    font-size: 38px;
+    font-weight: 900;
+}
+.p2b{
+    position: relative;
+    left: 43vw;
+    bottom: 164.5vh;
+    border-radius: 20px;
+    padding: 7px 25px 7px 25px;
+    background-color: white;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.p3_1{
+   position: relative;
+   left: 69.5vw;
+   bottom: 212.5vh;
+   line-height: 25px; 
+}
+.p3_1LH{
+    line-height: 40px;
+}
+.p3_1CO{
+    color: rgba(135, 11, 11, 0.917);
 }

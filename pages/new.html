@@ -1,43 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../assets/css/reset.css">
-    <link rel="stylesheet" href="../assets/css/new.css">
-    
-</head>
-<body>
-<nav>
-<a  href="#"><img class="n_logo" src="../assets/img/new이미지/나이키 이미지/다운로드.png" alt=""></a>
-<a  href="#"><img class="n_logo" src="../assets/img/new이미지/나이키 이미지/다운로드 컨버스.png" alt=""></a>
-<div class="login">
-  <a href="">매장찾기 |</a>
-  <a href="">고객센터 |</a>
-  <a href="">로그인</a>  
-</div>
-</nav>
-<header>
-    <a href=""><img class="nike" src="../assets/img/new이미지/나이키 이미지/free-icon-nike-732229.png" alt=""></a>
-    <div>
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/new.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E" />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Noto+Sans+KR:wght@100;200;300;400;500&family=PT+Serif&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav>
+      <a href="#">
+        <img
+          class="n_logo"
+          src="../assets/img/new이미지/나이키 이미지/다운로드.png"
+          alt=""/>
+    </a>
+      <a href="#">
+        <img
+          class="n_logo"
+          src="../assets/img/new이미지/나이키 이미지/다운로드 컨버스.png"
+          alt=""/>
+    </a>
+      <div class="login">
+        <a href="">매장찾기 |</a>
+        <a href="">고객센터 |</a>
+        <a href="">로그인</a>
+      </div>
+    </nav>
+    <header>
+      <a href="">
+        <img
+          class="nike"
+          src="../assets/img/new이미지/나이키 이미지/free-icon-nike-732229.png"
+          alt=""/>
+        </a>
+      <div>
         <a class="TM1" href="">New Releases</a>
         <a class="TM2" href="">Men</a>
         <a class="TM3" href="">Women</a>
-    </div>
-    <div>
-        <a class="wish" href=""><img src="../assets/img/new이미지/나이키 이미지/free-icon-heart-1077035.png" alt=""></a>
-        <a class="cart" href=""><img src="../assets/img/new이미지/나이키 이미지/free-icon-remove-8492882.png" alt=""></a>
-    </div>
-    <div class="search">
-        <input type="text" placeholder=  "       검색">
-        <img class="mag" src="../assets/img/new이미지/나이키 이미지/free-icon-magnifier-2319177.png" alt="">
-    </div>
-    
-    <div>아무거나1234</div>
-    
+      </div>
+      <div>
+        <a class="wish" href="">
+          <img
+            src="../assets/img/new이미지/나이키 이미지/free-icon-heart-1077035.png"
+            alt=""/>
+          </a>
+        <a class="cart" href="">
+          <img
+            src="../assets/img/new이미지/나이키 이미지/free-icon-remove-8492882.png"
+            alt=""/>
+          </a>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="       검색" />
+        <img
+          class="mag"
+          src="../assets/img/new이미지/나이키 이미지/free-icon-magnifier-2319177.png"
+          alt=""
+        />
+      </div>
 
-</header>
+      <div class="SP"></div>
 
-</body>
+      <div class="NP">신제품 (169)</div>
+      <div>
+        <a class="FI" href="">
+          <img
+            src="../assets/img/new이미지/나이키 이미지/filter.png"
+            alt=""
+          />필터 숨기기</a>
+        <a class="AR" href="">정렬기준:</a>
+      </div>
+<!-- 화살표 -->
+      <div class="arr">
+        <span></span>
+      </div>
+
+    </header>
+
+    <main>
+      <div class="SM">
+        <ul>
+          <li><a href="">신발</a></li>
+          <li><a href="">스포츠 브라</a></li>
+          <li><a href="">바디수트</a></li>
+          <li><a href="">탑&티셔츠</a></li>
+          <li><a href="">후디&크루</a></li>
+          <li><a href="">재킷&베스트</a></li>
+          <li><a href="">팬츠&타이츠</a></li>
+          <li><a href="">쇼츠</a></li>
+          <li><a href="">트랙수트</a></li>
+          <li><a href="">스커트&드레스</a></li>
+          <li><a href="">서핑&수영복</a></li>
+          <li><a href="">양발</a></li>
+          <li><a href="">용품</a></li>
+          <br>
+        </ul>
+        <!--성별-->
+        <hr>
+        <p>성별</p>
+        <br>
+       <!-- 사이드체크박스컨테이너 -->
+        <form action="#">
+          <input type="checkbox" id="Men_check" name="남성" value="Men">
+          <label for="Men_check">남성</label><br>
+          <a href=""><input id="Women_check" type="checkbox" name="여성" value="Women">
+          <label for="Women_check">여성</label></a><br>
+          <a href=""><input id="Uni_check" type="checkbox" name="유니섹스" value="UniSex">
+          <label for="Uni_check">유니섹스</label></a><br>
+        </form>
+          <hr>
+        <!--키즈-->
+        <p>키즈</p>
+        <br>
+        <form action="#">
+          <input type="checkbox" id="Boy" name="남아" value="boy">
+          <label for="Men_check">남아</label><br>
+          <a href=""><input id="Girl" type="checkbox" name="여아" value="girl">
+          <label for="Women_check">여아</label></a><br>
+          
+  
+       </div>
+
+      <div> <!--전체 div-->
+       <div>  <!--이미지 1의 div-->
+         <a href="">
+          <img
+            class="SH"
+            src="../assets/img/new이미지/나이키 이미지/페가수스40.webp"
+          />
+          <!--img 1 text-->
+          <div class="p1_1">
+            <p> <span class="R">신제품</span> <br>
+            나이키 페가수스 40 <br>
+            여성 로드 러닝화<br>
+            1개 색상<br>
+            </p>
+          </div>
+          <!-- p1_1에 가격표임 클래스를 잘못줌 -->
+          <div class="p1_2"> 
+           <p>126,600원 <span class="Line">149,000원</span><br>
+           <span class="G">15% 할인</span>
+           </p>
+          </div>
+        </div>
+         <!--이미지 2의 div-->
+        <div>
+        <a href="">
+          <img
+            class="PE"
+            src="../assets/img/new이미지/나이키 이미지/나이키 요가모델.jpg"
+            alt=""/>
+
+            <!--img 2 text div-->
+            <div>
+            <p class="p2_1">스포츠 브라 유형 테스트</p>
+            <button class="p2b">자세히 보기</button>
+          </div>
+          </a>
+        </div>
+        <div><!--이미지 3의 div-->
+        <a href="">
+          <img
+            class="SH-1"
+            src="../assets/img/new이미지/나이키 이미지/코르테즈 흰색.webp"
+            alt=""
+           />
+           <!--img 3 text div-->
+           <div class="p3_1">
+            <p><span class="p3_1CO">SNKRS</span><br>
+               나이키 코르테즈<br>
+               여성 신발<br>
+               2개 색상<br>
+              <span class="p3_1LH">119,000원</span></p>
+            </div>
+        </a>
+           </div> 
+      </div>
+    </main>
+  </body>
 </html>
