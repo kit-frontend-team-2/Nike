@@ -1,252 +1,418 @@
-*{
-font-family: 'Caveat', cursive;
-font-family: 'Noto Sans KR', sans-serif;
-font-family: 'PT Serif', serif;
-font-family: "Noto Sans KR","Arial Bold","Helvetica Now Text",Helvetica,Arial,Dotum,"국어",Gulim,sans-serif
+* {
+  font-family: "Caveat", cursive;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "PT Serif", serif;
+  font-family: "Noto Sans KR", "Arial Bold", "Helvetica Now Text", Helvetica,
+    Arial, Dotum, "국어", Gulim, sans-serif;
 }
 
-
-.n_logo{
-width: 35px;
-position: relative;
-right: -40px;
-background-color: rgba(224, 221, 221, 0.969);
+.n_logo {
+  width: 35px;
+  position: relative;
+  right: -40px;
+  background-color: rgba(224, 221, 221, 0.969);
 }
 
-.login{
-    /* text-align: right; */
-    position: relative;
-    top: -15px;
-    left: 85vw;
-    
-    }
-a{
-    text-decoration: none;
-    color: black;
+.login {
+  /* text-align: right; */
+  position: relative;
+  top: -15px;
+  left: 85vw;
 }
-nav{
-    background-color: rgba(224, 221, 221, 0.969);
+a {
+  text-decoration: none;
+  color: black;
 }
-.nike{
-    width: 70px;
-    position: relative;
-    right: -40px;
-    top: -10px;
+nav {
+  background-color: rgba(224, 221, 221, 0.969);
 }
-.TM1{
-    font-size: 20px;
-    font-weight: normal;
-    position: absolute;
-    text-align: center;
-    justify-content: center;
-    right: 55vw;
-    top: 8.5vh;
-    }
-
-.TM2{
-    font-size: 20px;
-    font-weight: normal;
-    position: absolute;
-    text-align: center;
-    justify-content: center;
-    right: 52vw;
-    top: 8.5vh;
+.nike {
+  width: 70px;
+  position: relative;
+  right: -40px;
+  top: -10px;
+}
+.TM1 {
+  font-size: 20px;
+  font-weight: normal;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  right: 55vw;
+  top: 8.5vh;
 }
 
-.TM3{
-    font-size: 20px;
-    font-weight: normal;
-    position: absolute;
-    text-align: center;
-    justify-content: center;
-    right: 47.5vw;
-    top: 8.5vh;
+.TM2 {
+  font-size: 20px;
+  font-weight: normal;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  right: 52vw;
+  top: 8.5vh;
 }
-.wish{
-    position: absolute;
-    right: 130px;
-    top: 70px;
+
+.TM3 {
+  font-size: 20px;
+  font-weight: normal;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  right: 47.5vw;
+  top: 8.5vh;
 }
-.wish>img{
-    width: 20px;
+.wish {
+  position: absolute;
+  right: 130px;
+  top: 70px;
 }
-.cart{
-    position: absolute;
-    right: 80px;
-    top: 66px;
+.wish > img {
+  width: 20px;
 }
-.cart>img{
-    width: 25px;
+.cart {
+  position: absolute;
+  right: 80px;
+  top: 66px;
 }
-.search{
-    position: relative;
-    right: -1570px;
-    top: -54px;
-   
-    
+.cart > img {
+  width: 25px;
 }
-input{
-    width: 8%;
-    border: 1px solid #bbb;
-    border-radius: 20px;
-    padding: 10px 1px 10px 1px;
-    font-size: 14px;
-    background-color: rgba(246, 238, 238, 0.977);
+.search {
+  position: relative;
+  right: -1570px;
+  top: -54px;
 }
-.mag{
-  position : relative;
+input {
+  width: 8%;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  padding: 10px 1px 10px 1px;
+  font-size: 14px;
+  background-color: rgba(246, 238, 238, 0.977);
+}
+.mag {
+  position: relative;
   width: 17px;
   top: 5px;
   right: 160px;
   margin: 0;
 }
-.NP{
-    position: relative;
-    right: -40px;
-    font-size: 25px;
+.NP {
+  position: relative;
+  right: -40px;
+  font-size: 25px;
 }
-.FI>img{
-    width: 20px;
-    position: relative;
-    left: 108px;
-    bottom: -7px;
+.FI > img {
+  width: 20px;
+  position: relative;
+  left: 108px;
+  bottom: -7px;
 }
-.FI{
-    position: relative;
-    left: 80vw;
-    bottom: 3vh;
-
+.FI {
+  position: relative;
+  left: 80vw;
+  bottom: 3vh;
 }
-.AR{
-    position: relative;
-    left: 83vw;
-    bottom: 3vh;
+.AR {
+  position: relative;
+  left: 83vw;
+  bottom: 3vh;
 }
 .arr span {
-    position: relative;
+  position: relative;
 }
 
-.arr span::after {
-    content: '';
-    width: 10px; 
-    height: 10px; 
-    border-top: 3px solid #121212; /* 선 두께 */
-    border-right: 3px solid #121212; /* 선 두께 */
-    display: inline-block;
-    transform: rotate(135deg); /* 각도 */
-    position: absolute;
-    top: -5vh; /* 기본 0px 값으로 해주세요 */
-    left: 93vw; /* 기본 0px 값으로 해주세요 */
+.arr-1 span::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid #121212; /* 선 두께 */
+  border-right: 3px solid #121212; /* 선 두께 */
+  display: inline-block;
+  transform: rotate(135deg); /* 각도 */
+  position: absolute;
+  top: 16.5vh; /* 기본 0px 값으로 해주세요 */
+  left: 93vw; /* 기본 0px 값으로 해주세요 */
 }
 
-.SM{
-    position: relative;
-    right: -40px;
-    line-height: 1.5vw;
+.SM {
+  position: relative;
+  right: -40px;
+  line-height: 1.5vw;
 }
 
 /* 스크롤바 */
-.SM{
-    width: 200px;
-    height: 800px; 
-    overflow-y: scroll;
+.side_menu {
+  position: relative;
+  width: 230px;
+  height: 700px;
+  right: 42.5vw;
+  overflow-y: auto visible;
+  overflow-x: hidden;
+  scrollbar-gutter: auto;
+  margin: 1rem auto 0;
+
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 1rem;
+  line-height: 2rem;
+}
+/*.side_menu::-webkit-scrollbar-thumb{
+  border-radius: 100px;
+  background-color: #8070d4;
+  border: 6px solid rgba(0, 0, 0, 0.2);
+}*/
+
+.menu_hr {
+  color: rgba(193, 189, 189, 0.439);
+  width: 100%;
+  justify-content: flex-start;
 }
 
-.SM::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(239, 239, 239, 0.3);
-  border-radius: 10px;
-  background-color: #F5F5F5;
+/* 사이드 화살표 */
+.arr span::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid #121212;
+  border-right: 3px solid #121212;
+  display: inline-block;
+  transform: rotate(313deg);
+  position: absolute;
+  top: -5.5vh;
+  left: 10vw;
 }
 
-.SM::-webkit-scrollbar {
-  width: 12px;
-  background-color: #F5F5F5;
+.main_page {
+  top: 20vh;
 }
 
-.SM::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-  background-color: #555;
-}
-
-hr{
-    color: rgba(193, 189, 189, 0.439);
-    width: 100%;
-    justify-content: flex-start;
-}
-
-    
 /*SH = Shoes 사진*/
-.SH{
-    width: 500px;
-    position: relative;
-    left: 270px;
-    bottom: 83vh;  
-} 
-.PE{
-    width: 500px; 
-    position:relative;
-    left: 800px;
-    bottom: 153.5vh;    
+.SH {
+  width: 480px;
+  position: relative;
+  left: 310px;
+  bottom: 76vh;
 }
-.SH-1{
-    width: 500px;
-    position: relative;
-    left: 1330px;
-    bottom: 214vh;  
+.PE {
+  width: 480px;
+  position: relative;
+  left: 820px;
+  bottom: 144.5vh;
+}
+.SH-1 {
+  width: 480px;
+  position: relative;
+  left: 1330px;
+  bottom: 203vh;
 }
 /* Red 글씨 */
-.R{
-    color: rgba(135, 11, 11, 0.917);
+.R {
+  color: rgba(135, 11, 11, 0.917);
 }
-.p1_1{
-    line-height: 25px;
-    position:relative;
-    left: 14vw;
-    bottom: 82vh;
+.p1_1 {
+  line-height: 25px;
+  position: relative;
+  left: 16vw;
+  bottom: 74vh;
 }
 /* p1_2가 아니라 p1_1가격표인데 HTML을 잘못 설정함 */
-.p1_2{
-    line-height: 40px;
-    position:relative;
-    left: 14vw;
-    bottom: 82vh;
+.p1_2 {
+  line-height: 40px;
+  position: relative;
+  left: 16vw;
+  bottom: 72vh;
 }
-.G{
-    color: green;
-   
+.G {
+  color: green;
 }
-.Line{
-    text-decoration: line-through;
+.Line {
+  text-decoration: line-through;
 }
-.p2_1{
-    position: relative;
-    left: 43vw;
-    bottom: 166vh;
-    color: white;
-    font-size: 38px;
-    font-weight: 900;
+.p2_1 {
+  position: relative;
+  left: 44vw;
+  bottom: 157vh;
+  color: white;
+  font-size: 38px;
+  font-weight: 900;
 }
-.p2b{
-    position: relative;
-    left: 43vw;
-    bottom: 164.5vh;
-    border-radius: 20px;
-    padding: 7px 25px 7px 25px;
-    background-color: white;
-    font-weight: 400;
-    font-size: medium;
+.p2b {
+  position: relative;
+  left: 44vw;
+  bottom: 155vh;
+  border-radius: 20px;
+  padding: 7px 25px 7px 25px;
+  background-color: white;
+  font-weight: 400;
+  font-size: medium;
 }
 
-.p3_1{
-   position: relative;
-   left: 69.5vw;
-   bottom: 212.5vh;
-   line-height: 25px; 
+.p3_1 {
+  position: relative;
+  left: 69.5vw;
+  bottom: 201vh;
+  line-height: 25px;
 }
-.p3_1LH{
-    line-height: 40px;
+.p3_1LH {
+  line-height: 70px;
 }
-.p3_1CO{
-    color: rgba(135, 11, 11, 0.917);
+.p3_1CO {
+  color: rgba(135, 11, 11, 0.917);
+}
+
+
+
+/* footer */
+footer {
+  background: black;
+}
+footer ul {
+  color: white;
+}
+/* 회색 글 */
+.gray {
+  color: rgb(194, 194, 194);
+  font-weight: 5;
+}
+
+.fm1 {
+  line-height: 40px;
+  position: relative;
+  left: 10vw;
+  font-weight: 900;
+  top: 5vh;
+}
+
+.fm2 {
+  line-height: 40px;
+  position: relative;
+  left: 25vw;
+  bottom: 6vw;
+}
+.help {
+  font-weight: 900;
+}
+
+.fm3 {
+  line-height: 40px;
+  position: relative;
+  left: 40vw;
+  bottom: 20.5vw;
+  color: white;
+}
+.about_nike {
+  font-weight: 900;
+}
+
+/* footer 이미지 아이콘 */
+.fi {
+  position: relative;
+  left: 80vw;
+  bottom: 32vw;
+}
+.twi {
+  width: 20px;
+  margin: 20px 8px;
+  background-color: rgb(194, 194, 194);
+  padding: 10px 10px 10px 10px;
+  border-radius: 50%;
+}
+.fai {
+  width: 20px;
+  margin: 20px 8px;
+  background-color: rgb(194, 194, 194);
+  padding: 10px 10px 10px 10px;
+  border-radius: 50%;
+}
+.yoi {
+  width: 20px;
+  margin: 20px 10px;
+  background-color: rgb(194, 194, 194);
+  padding: 10px 10px 10px 10px;
+  border-radius: 50%;
+}
+.ini {
+  width: 20px;
+  margin: 20px 10px;
+  background-color: rgb(194, 194, 194);
+  padding: 10px 10px 10px 10px;
+  border-radius: 50%;
+}
+.loi {
+  background-color: white;
+  border-radius: 100%;
+  width: 15px;
+}
+.kor {
+  color: white;
+  position: relative;
+  left: 10px;
+}
+.year {
+  color: rgb(194, 194, 194);
+  font-size: 12px;
+  position: relative;
+  left: 6vw;
+  bottom: 1.5vh;
+}
+.koreai {
+  position: relative;
+  bottom: 35vh;
+  left: 10vw;
+}
+
+.방침 {
+  color: white;
+}
+.약관들 {
+  display: inline-flex;
+  gap: 30px;
+  color: rgb(194, 194, 194);
+  position: relative;
+  bottom: 38vh;
+  left: 66vw;
+  font-size: 12px;
+}
+
+.ft_hr {
+  color: white;
+  width: 100rem;
+  position: absolute;
+  top: 3vh;
+  right: -0.6vw;
+}
+.fst {
+  position: relative;
+  bottom: 33vh;
+  left: 9.5vw;
+  color: rgb(194, 194, 194);
+  line-height: 25px;
+  font-size: 12px;
+}
+.fst_1 {
+  color: rgb(194, 194, 194);
+  font-weight: 1000;
+  text-decoration: underline;
+}
+.현금 {
+  text-align: justify;
+  text-align-last: right;
+  position: relative;
+  right: 15vw;
+  bottom: 8vh;
+}
+.콘텐츠 {
+  text-align: justify;
+  text-align-last: right;
+  position: relative;
+  right: 40vw;
+  bottom: 10vh;
+}
+.있습니다 {
+  text-align: justify;
+  text-align-last: right;
+  position: relative;
+  right: 53vw;
+  bottom: 8vh;
 }

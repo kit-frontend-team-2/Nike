@@ -76,14 +76,14 @@
         <a class="AR" href="">정렬기준:</a>
       </div>
 <!-- 화살표 -->
-      <div class="arr">
+      <div class="arr-1">
         <span></span>
       </div>
 
     </header>
 
     <main>
-      <div class="SM">
+      <div class="side_menu"> <!--사이드 메뉴-->
         <ul>
           <li><a href="">신발</a></li>
           <li><a href="">스포츠 브라</a></li>
@@ -101,9 +101,13 @@
           <br>
         </ul>
         <!--성별-->
-        <hr>
+        <hr class="menu_hr">
         <p>성별</p>
         <br>
+        <!-- 화살표 -->
+        <div class="arr">
+          <span></span>
+        </div>
        <!-- 사이드체크박스컨테이너 -->
         <form action="#">
           <input type="checkbox" id="Men_check" name="남성" value="Men">
@@ -113,7 +117,7 @@
           <a href=""><input id="Uni_check" type="checkbox" name="유니섹스" value="UniSex">
           <label for="Uni_check">유니섹스</label></a><br>
         </form>
-          <hr>
+          <hr class="menu_hr">
         <!--키즈-->
         <p>키즈</p>
         <br>
@@ -122,19 +126,22 @@
           <label for="Men_check">남아</label><br>
           <a href=""><input id="Girl" type="checkbox" name="여아" value="girl">
           <label for="Women_check">여아</label></a><br>
+          <divs>
+
+          </divs>
           
   
        </div>
 
-      <div> <!--전체 div-->
+      <div> <!--전체 div--> 
        <div>  <!--이미지 1의 div-->
          <a href="">
-          <img
-            class="SH"
+          <img 
+            class="SH move"
             src="../assets/img/new이미지/나이키 이미지/페가수스40.webp"
           />
           <!--img 1 text-->
-          <div class="p1_1">
+          <div class="p1_1 move">
             <p> <span class="R">신제품</span> <br>
             나이키 페가수스 40 <br>
             여성 로드 러닝화<br>
@@ -142,7 +149,7 @@
             </p>
           </div>
           <!-- p1_1에 가격표임 클래스를 잘못줌 -->
-          <div class="p1_2"> 
+          <div class="p1_2 move"> 
            <p>126,600원 <span class="Line">149,000원</span><br>
            <span class="G">15% 할인</span>
            </p>
@@ -152,35 +159,108 @@
         <div>
         <a href="">
           <img
-            class="PE"
+            class="PE move"
             src="../assets/img/new이미지/나이키 이미지/나이키 요가모델.jpg"
             alt=""/>
 
             <!--img 2 text div-->
-            <div>
-            <p class="p2_1">스포츠 브라 유형 테스트</p>
+          <div>
+            <p class="p2_1 move">스포츠 브라 유형 테스트</p>
             <button class="p2b">자세히 보기</button>
           </div>
-          </a>
+        </a>
         </div>
         <div><!--이미지 3의 div-->
         <a href="">
           <img
-            class="SH-1"
+            class="SH-1 move"
             src="../assets/img/new이미지/나이키 이미지/코르테즈 흰색.webp"
             alt=""
            />
            <!--img 3 text div-->
-           <div class="p3_1">
-            <p><span class="p3_1CO">SNKRS</span><br>
+           <div class="p3_1 move">
+            <p><span class="p3_1CO move">SNKRS</span><br>
                나이키 코르테즈<br>
                여성 신발<br>
                2개 색상<br>
-              <span class="p3_1LH">119,000원</span></p>
+              <span class="p3_1LH move">119,000원</span></p>
             </div>
         </a>
-           </div> 
+        </div> 
       </div>
     </main>
+    <footer>
+      <!--새로운소식-->
+    <div class="fm1">
+      <a href="">
+        <ul>
+          <li>새로운소식</li>
+          <li>멥버가입</li>
+          <li>매장안내</li>
+          <li>나이키저널</li>
+        </ul>
+      </a>
+    </div>
+
+    <div class="fm2"> <!--도움말-->
+      <a href="">
+        <ul>
+         <li class="help">도움말</li>
+         <li class="gray">로그인안내</li>
+         <li class="gray">주문배송조회</li>
+         <li class="gray">반품정책</li>
+         <li class="gray">결제방법</li>
+         <li class="gray">공지사항</li>
+         <li class="gray">문의하기</li>
+        </ul>
+      </a>
+    </div>
+
+    <div class="fm3"> <!--ABOUT NIKE-->
+      <a href="">
+        <ul>
+          <li class="about_nike">ABOUT NIKE</li>
+          <li class="gray">소식</li>
+          <li class="gray">채용</li>
+          <li class="gray">투자자</li>
+          <li class="gray">지속가능성</li>
+        </ul>
+      </a>
+    </div>
+
+    
+  <div class="fi">
+    <a href=""><img class="twi" src="../assets/img/new이미지/나이키 이미지/free-icon-twitter-733635.png" alt=""></a>
+    <a href=""><img class="fai" src="../assets/img/new이미지/나이키 이미지/free-icon-facebook-3128208.png" alt=""></a>
+    <a href=""><img class="yoi" src="../assets/img/new이미지/나이키 이미지/free-icon-youtube-108.png" alt=""></a>
+    <a href=""><img class="ini" src="../assets/img/new이미지/나이키 이미지/free-icon-instagram-symbol-25425.png" alt=""></a>
+  </div>
+  <div>
+    <div class="koreai">
+    <a href=""><img class="loi" src="../assets/img/new이미지/나이키 이미지/pin.png" alt=""><span class="kor">대한민국</span></a>
+    <p class="year">© 2023 Nike, Inc. All Rights Reserved</p>
+  </div>
+  </div>
+  <div>
+    <a class="약관들" href="">
+      <p>이용약관</p>
+      <p class="방침">개인정보처리방침</p>
+      <p>위치 기반 서비스 약관</p>
+      <p>영상정보처리기기 운영 방침</p>
+      <hr class="ft_hr">
+    </a>
+  </div>
+  <div class="fst">
+    <p>
+      (유)나이키코리아 대표 Kimberlee Lynn Chang Mendes, 킴벌리 린 창 멘데스 | 서울 강남구 테헤란로 152 강남파이낸스센터 30층 |<br> 
+      통신판매업신고번호 2011-서울강남-03461 | 등록번호 220-88-09068 <a class="fst_1" href="">사업자 정보 확인</a>
+      <br>
+      고객센터 전화 문의 <a class="fst_1" href="">080-022-0182</a> FAX 02-6744-5880 | 이메일 <a class="fst_1" href="">service@nike.co.kr</a> | 호스팅서비스사업자 (유)나이키코리아
+      <br><p class="현금">현금 등으로 결제 시 안전 거래를 위해 나이키 쇼핑몰에서 가입하신 한국결제네트웍스 유한회사의 구매안전 서비스<a class="fst_1" href="">(결제대금예치)</a>를 이용하실 수<br><p class="있습니다">있습니다.</p><br>
+      <p class="콘텐츠">콘텐츠산업진흥법에 의한 콘텐츠 보호 안내 <a class="fst_1" href="">자세히 보기</a></p></p>
+    </p>
+
+  </div>
+    </footer>
   </body>
 </html>
